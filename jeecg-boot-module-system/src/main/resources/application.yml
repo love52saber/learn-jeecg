@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+swagger:
+  production: false
+  basic:
+    enable: true
+    username: jeecg
+    password: jeecg1314
+
+server:
+    port: 8080
+    servlet:
+       context-path: /jeecg-boot
